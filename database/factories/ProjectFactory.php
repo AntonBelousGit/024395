@@ -18,7 +18,7 @@ class ProjectFactory extends Factory
     {
         return [
             'name'=> $this->faker->userName,
-            'cost' => $this->faker->numberBetween(1000, 2000000000)
+            'cost' => $this->faker->randomElement([1000, 2000, 3000, 10000])
         ];
     }
 }

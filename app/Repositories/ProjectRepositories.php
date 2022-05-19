@@ -19,4 +19,9 @@ class ProjectRepositories extends CoreRepository
         return Model::class;
     }
 
+    public function filter($filter)
+    {
+        return $this->startCondition()->filter($filter)->get();
+    }
+
 }

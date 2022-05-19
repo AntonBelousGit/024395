@@ -1,0 +1,635 @@
+{
+	"info": {
+		"_postman_id": "9e46cdf5-1b10-4ad1-b135-69353d3e5019",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "All Projects",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Projects search one params name",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&name=a",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "name",
+							"value": "a"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Projects search one params Pivot",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&pivot=own",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "pivot",
+							"value": "own"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Projects search one params Pivot",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&name=a",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"project",
+								""
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+								},
+								{
+									"key": "name",
+									"value": "a"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "",
+					"header": "",
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Projects search one params ID",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&id=10",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "id",
+							"value": "10"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Projects search one params cost",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&cost=1000",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "cost",
+							"value": "1000"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Projects search one params cost",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&cost=3000",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"project",
+								""
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+								},
+								{
+									"key": "cost",
+									"value": "3000"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "",
+					"header": [
+						{}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Projects search one params sort",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&sort=name",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "sort",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Projects search one params sort",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&sort=name",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"project",
+								""
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+								},
+								{
+									"key": "sort",
+									"value": "name"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				},
+				{
+					"name": "Projects search one params sort Copy",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&sort=name",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"project",
+								""
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+								},
+								{
+									"key": "sort",
+									"value": "name"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [],
+					"cookie": [],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Projects search one params \"pivot\"",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&pivot=own",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "pivot",
+							"value": "own"
+						}
+					]
+				}
+			},
+			"response": [
+				{
+					"name": "Projects search one params \"pivot\"",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&pivot=user",
+							"protocol": "http",
+							"host": [
+								"127",
+								"0",
+								"0",
+								"1"
+							],
+							"port": "8000",
+							"path": [
+								"api",
+								"project",
+								""
+							],
+							"query": [
+								{
+									"key": "api_token",
+									"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+								},
+								{
+									"key": "pivot",
+									"value": "user"
+								}
+							]
+						}
+					},
+					"_postman_previewlanguage": "Text",
+					"header": [
+						{}
+					],
+					"cookie": [
+						{
+							"expires": "Invalid Date"
+						}
+					],
+					"body": ""
+				}
+			]
+		},
+		{
+			"name": "Projects search more params",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&name=an&pivot=own&cost=1000&sort=name",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "name",
+							"value": "an"
+						},
+						{
+							"key": "pivot",
+							"value": "own"
+						},
+						{
+							"key": "cost",
+							"value": "1000"
+						},
+						{
+							"key": "sort",
+							"value": "name"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Show one project",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/10/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						"10",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create new project",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&name=New project&cost=123123123",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "name",
+							"value": "New project"
+						},
+						{
+							"key": "cost",
+							"value": "123123123"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update project",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/100/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk&name=Updated project&cost=77777777",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						"100",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						},
+						{
+							"key": "name",
+							"value": "Updated project"
+						},
+						{
+							"key": "cost",
+							"value": "77777777"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Destroy project",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "http://127.0.0.1:8000/api/project/11/?api_token=dbdfogsdf-pgosdfp[ogk33312psdfksladfk",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"api",
+						"project",
+						"11",
+						""
+					],
+					"query": [
+						{
+							"key": "api_token",
+							"value": "dbdfogsdf-pgosdfp[ogk33312psdfksladfk"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

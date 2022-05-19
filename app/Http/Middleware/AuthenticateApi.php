@@ -16,7 +16,6 @@ class AuthenticateApi extends Middleware
         if (empty($token)) {
             $token = $request->bearerToken();
         }
-
         if (in_array($token,config('apiTokens'))) return;
 
         $this->unauthenticated($request,$guards);

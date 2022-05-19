@@ -14,8 +14,8 @@ return new class extends Migration
     public function up()
     {
         Schema::create('project_user', function (Blueprint $table) {
-            $table->foreignId('project_id')->constrained();
-            $table->foreignId('user_id')->constrained();
+            $table->foreignId('project_id')->constrained()->cascadeOnDelete()->cascadeOnUpdate();
+            $table->foreignId('user_id')->constrained()->cascadeOnDelete()->cascadeOnUpdate();
             $table->boolean('is_own')->default(false);
         });
     }
